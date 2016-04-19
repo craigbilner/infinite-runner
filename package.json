@@ -1,0 +1,12 @@
+{
+  "name": "elm-london",
+  "version": "1.0.0",
+  "description": "some hack thing",
+  "main": "index.js",
+  "scripts": {
+  "watch": "chokidar '**/*.elm' -c 'elm make src/elm/Main.elm --output src/js/elm.compiled.js'",
+  "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Craig Bilner & Michael Li",
+  "license": "BSD-3-Clause"
+}
